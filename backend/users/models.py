@@ -13,7 +13,7 @@ class PerfilUser(AbstractUser):
 
     rut = models.CharField(max_length=50, unique=True)
     direccion = models.CharField(max_length=100)
-    comuna = models.ForeignKey(Comuna, on_delete=models.CASCADE)
+    comuna = models.ForeignKey(Comuna, on_delete=models.CASCADE, null=True, blank=True)
     tipo_usuario = models.CharField(max_length=20, choices=TipoUsuario.choices)
 
     REQUIRED_FIELDS = ['rut', 'email', 'first_name', 'last_name']

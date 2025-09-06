@@ -28,6 +28,7 @@ class Inmueble(models.Model):
     actualizado = models.DateTimeField(auto_now=True)
     comuna = models.ForeignKey(Comuna, on_delete=models.CASCADE)
     tipo_inmueble = models.CharField(max_length=20, choices=TipoInmueble.choices)
+    imagen = models.ImageField(upload_to='imagenes_inmueble/', default='imagenes_inmueble/casa-sin-imagen')
     arrendado = models.BooleanField(default=False)
 
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Inmuebles</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        h1 { text-align: center; margin-bottom: 2rem; }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin-top: 0; font-size: 1.2rem; }
+        .card p { font-size: 0.9rem; color: #555; }
+        .card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        .buttons {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 0.5rem;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border-radius: 5px;
+        }
+        .btn:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la plataforma</h1>
+
+    <!-- Botones de login / registro -->
+    <div class="buttons">
+        <a href="{% url 'register' %}" class="btn">Registrarse</a>
+        <a href="{% url 'login' %}" class="btn">Iniciar sesión</a>
+    </div>
+
+    <!-- Grid de inmuebles -->
+    {% if inmuebles %}
+        <div class="grid-container">
+            {% for inmueble in inmuebles %}
+                <div class="card">
+                    <h3>{{ inmueble.titulo }}</h3>
+                    <p>{{ inmueble.descripcion|truncatechars:100 }}</p>
+                    <a href="{% url 'inmueble-detail' inmueble.id %}">Ver más</a>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p style="text-align:center;">No hay inmuebles disponibles.</p>
+    {% endif %}
+</body>
+</html>

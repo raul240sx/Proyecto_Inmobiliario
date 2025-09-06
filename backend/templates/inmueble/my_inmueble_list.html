@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis Inmuebles</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2rem; }
+        h2 { text-align: center; margin-bottom: 2rem; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; }
+        th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .no-items { text-align: center; color: #555; margin-top: 2rem; }
+        a { text-decoration: none; color: #007BFF; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h2>Mis Inmuebles</h2>
+
+    {% if mis_inmuebles %}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Descripción</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for inmueble in mis_inmuebles %}
+                    <tr>
+                        <td>{{ inmueble.id }}</td>
+                        <td>{{ inmueble.titulo }}</td>
+                        <td>{{ inmueble.descripcion|truncatechars:50 }}</td>
+                        <td>
+                            <a href="{% url 'inmueble-detail' inmueble.id %}">Ver</a> |
+                            <a href="{% url 'inmueble-update' inmueble.id %}">Editar</a> |
+                            <a href="{% url 'inmueble-delete' inmueble.id %}">Eliminar</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p class="no-items">No tienes inmuebles registrados.</p>
+    {% endif %}
+
+    <p><a href="{% url 'inmueble-create' %}">Crear nuevo inmueble</a></p>
+</body>
+</html>
