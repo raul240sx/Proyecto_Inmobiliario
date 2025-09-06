@@ -1,0 +1,202 @@
+[
+  {
+    "model": "portal.inmueble",
+    "pk": 1,
+    "fields": {
+      "propietario": 1,
+      "nombre": "Casa Jardín Alegre",
+      "descripcion": "Hermosa casa con jardín y piscina.",
+      "m2_construidos": 120.0,
+      "m2_totales": 300.0,
+      "estacionamientos": 2,
+      "habitaciones": 3,
+      "banos": 2,
+      "direccion": "Calle 45 #123",
+      "precio_mensual": "450000.00",
+      "comuna": 77,
+      "tipo_inmueble": "CASA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 2,
+    "fields": {
+      "propietario": 1,
+      "nombre": "Departamento Central",
+      "descripcion": "Departamento céntrico cerca del metro.",
+      "m2_construidos": 60.0,
+      "m2_totales": 60.0,
+      "estacionamientos": 1,
+      "habitaciones": 2,
+      "banos": 1,
+      "direccion": "Avenida Libertad #456",
+      "precio_mensual": "320000.00",
+      "comuna": 77,
+      "tipo_inmueble": "DEPARTAMENTO",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": true
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 3,
+    "fields": {
+      "propietario": 2,
+      "nombre": "Parcela Los Pinos",
+      "descripcion": "Parcela tranquila con árboles frutales.",
+      "m2_construidos": 80.0,
+      "m2_totales": 1000.0,
+      "estacionamientos": 2,
+      "habitaciones": 3,
+      "banos": 2,
+      "direccion": "Camino Los Pinos #78",
+      "precio_mensual": "380000.00",
+      "comuna": 54,
+      "tipo_inmueble": "PARCELA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 4,
+    "fields": {
+      "propietario": 2,
+      "nombre": "Departamento Vista Mar",
+      "descripcion": "Departamento con vista al mar y terraza.",
+      "m2_construidos": 70.0,
+      "m2_totales": 70.0,
+      "estacionamientos": 1,
+      "habitaciones": 2,
+      "banos": 2,
+      "direccion": "Avenida del Mar #22",
+      "precio_mensual": "420000.00",
+      "comuna": 54,
+      "tipo_inmueble": "DEPARTAMENTO",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": true
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 5,
+    "fields": {
+      "propietario": 3,
+      "nombre": "Casa Las Violetas",
+      "descripcion": "Acogedora casa familiar con patio amplio.",
+      "m2_construidos": 110.0,
+      "m2_totales": 250.0,
+      "estacionamientos": 2,
+      "habitaciones": 3,
+      "banos": 2,
+      "direccion": "Calle Las Violetas #15",
+      "precio_mensual": "400000.00",
+      "comuna": 220,
+      "tipo_inmueble": "CASA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 6,
+    "fields": {
+      "propietario": 4,
+      "nombre": "Departamento Alto Horizonte",
+      "descripcion": "Departamento luminoso con vista panorámica.",
+      "m2_construidos": 65.0,
+      "m2_totales": 65.0,
+      "estacionamientos": 1,
+      "habitaciones": 2,
+      "banos": 1,
+      "direccion": "Calle Horizonte #98",
+      "precio_mensual": "350000.00",
+      "comuna": 120,
+      "tipo_inmueble": "DEPARTAMENTO",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": true
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 7,
+    "fields": {
+      "propietario": 5,
+      "nombre": "Parcela Verde",
+      "descripcion": "Parcela grande ideal para descanso y huerto.",
+      "m2_construidos": 90.0,
+      "m2_totales": 1200.0,
+      "estacionamientos": 3,
+      "habitaciones": 3,
+      "banos": 2,
+      "direccion": "Camino Verde #44",
+      "precio_mensual": "450000.00",
+      "comuna": 260,
+      "tipo_inmueble": "PARCELA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 8,
+    "fields": {
+      "propietario": 1,
+      "nombre": "Casa Sol Naciente",
+      "descripcion": "Casa luminosa con jardín delantero.",
+      "m2_construidos": 130.0,
+      "m2_totales": 280.0,
+      "estacionamientos": 2,
+      "habitaciones": 4,
+      "banos": 3,
+      "direccion": "Calle Sol Naciente #3",
+      "precio_mensual": "480000.00",
+      "comuna": 77,
+      "tipo_inmueble": "CASA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 9,
+    "fields": {
+      "propietario": 6,
+      "nombre": "Departamento Las Flores",
+      "descripcion": "Departamento moderno con terraza.",
+      "m2_construidos": 70.0,
+      "m2_totales": 70.0,
+      "estacionamientos": 1,
+      "habitaciones": 2,
+      "banos": 1,
+      "direccion": "Calle Las Flores #77",
+      "precio_mensual": "360000.00",
+      "comuna": 114,
+      "tipo_inmueble": "DEPARTAMENTO",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": true
+    }
+  },
+  {
+    "model": "portal.inmueble",
+    "pk": 10,
+    "fields": {
+      "propietario": 7,
+      "nombre": "Casa Rincón Azul",
+      "descripcion": "Casa con piscina y patio amplio.",
+      "m2_construidos": 140.0,
+      "m2_totales": 320.0,
+      "estacionamientos": 2,
+      "habitaciones": 4,
+      "banos": 3,
+      "direccion": "Calle Rincón Azul #12",
+      "precio_mensual": "500000.00",
+      "comuna": 184,
+      "tipo_inmueble": "CASA",
+      "imagen": "imagenes_inmueble/casa-sin-imagen",
+      "arrendado": false
+    }
+  }
+]

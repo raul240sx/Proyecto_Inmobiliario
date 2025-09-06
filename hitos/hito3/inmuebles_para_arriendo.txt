@@ -1,0 +1,7 @@
+comuna	inmueble	descripcion
+Calle Larga	Parcela Los Pinos	Parcela tranquila con árboles frutales.
+Cholchol	Casa Las Violetas	Acogedora casa familiar con patio amplio.
+Los Álamos	Casa Rincón Azul	Casa con piscina y patio amplio.
+Putaendo	Casa Sol Naciente	Casa luminosa con jardín delantero.
+Putaendo	Casa Jardín Alegre	Hermosa casa con jardín y piscina.
+Quellón	Parcela Verde	Parcela grande ideal para descanso y huerto.

@@ -13,4 +13,4 @@ class RegionAdmin(admin.ModelAdmin):
 class ComunaAdmin(admin.ModelAdmin):
     list_display = ('id', 'nombre')
     search_fields = ('nombre',)
-    list_filter = ('nombre',)
+    list_filter = ('region__zona',)

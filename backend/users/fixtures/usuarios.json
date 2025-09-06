@@ -1,0 +1,152 @@
+[
+  {
+    "model": "users.perfiluser",
+    "pk": 1,
+    "fields": {
+      "username": "user1",
+      "first_name": "Juan",
+      "last_name": "Pérez",
+      "email": "juan.pérez1@example.com",
+      "rut": "14706783-6",
+      "direccion": "Calle 112",
+      "comuna": 77,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 2,
+    "fields": {
+      "username": "user2",
+      "first_name": "José",
+      "last_name": "Vargas",
+      "email": "josé.vargas2@example.com",
+      "rut": "17233543-7",
+      "direccion": "Calle 977",
+      "comuna": 54,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 3,
+    "fields": {
+      "username": "user3",
+      "first_name": "Ana",
+      "last_name": "Vargas",
+      "email": "ana.vargas3@example.com",
+      "rut": "22678338-4",
+      "direccion": "Calle 285",
+      "comuna": 220,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 4,
+    "fields": {
+      "username": "user4",
+      "first_name": "Fernanda",
+      "last_name": "Morales",
+      "email": "fernanda.morales4@example.com",
+      "rut": "16272729-7",
+      "direccion": "Calle 887",
+      "comuna": 120,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 5,
+    "fields": {
+      "username": "user5",
+      "first_name": "Ana",
+      "last_name": "Morales",
+      "email": "ana.morales5@example.com",
+      "rut": "18646802-8",
+      "direccion": "Calle 102",
+      "comuna": 260,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 6,
+    "fields": {
+      "username": "user6",
+      "first_name": "Fernanda",
+      "last_name": "Pérez",
+      "email": "fernanda.pérez6@example.com",
+      "rut": "22488317-8",
+      "direccion": "Calle 483",
+      "comuna": 114,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 7,
+    "fields": {
+      "username": "user7",
+      "first_name": "María",
+      "last_name": "Rodríguez",
+      "email": "maría.rodríguez7@example.com",
+      "rut": "13542986-9",
+      "direccion": "Calle 794",
+      "comuna": 184,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 8,
+    "fields": {
+      "username": "user8",
+      "first_name": "María",
+      "last_name": "Torres",
+      "email": "maría.torres8@example.com",
+      "rut": "12035569-5",
+      "direccion": "Calle 12",
+      "comuna": 313,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 9,
+    "fields": {
+      "username": "user9",
+      "first_name": "Juan",
+      "last_name": "Torres",
+      "email": "juan.torres9@example.com",
+      "rut": "16776650-3",
+      "direccion": "Calle 831",
+      "comuna": 282,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  },
+  {
+    "model": "users.perfiluser",
+    "pk": 10,
+    "fields": {
+      "username": "user10",
+      "first_name": "Diego",
+      "last_name": "Morales",
+      "email": "diego.morales10@example.com",
+      "rut": "15880998-4",
+      "direccion": "Calle 989",
+      "comuna": 54,
+      "tipo_usuario": "ARRENDADOR",
+      "password": "pbkdf2_sha256$260000$test$hashedpassword"
+    }
+  }
+]

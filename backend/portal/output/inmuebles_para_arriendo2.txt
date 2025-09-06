@@ -1,0 +1,7 @@
+region	inmueble	descripcion
+Región de la Araucanía	Casa Las Violetas	Acogedora casa familiar con patio amplio.
+Región del Biobío	Casa Rincón Azul	Casa con piscina y patio amplio.
+Región de Los Lagos	Parcela Verde	Parcela grande ideal para descanso y huerto.
+Valparaíso	Casa Jardín Alegre	Hermosa casa con jardín y piscina.
+Valparaíso	Casa Sol Naciente	Casa luminosa con jardín delantero.
+Valparaíso	Parcela Los Pinos	Parcela tranquila con árboles frutales.
