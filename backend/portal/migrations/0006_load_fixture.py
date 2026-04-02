@@ -4,7 +4,7 @@ from django.core.management import call_command
 
 def load_fixture(apps, schema_editor):
     """Carga automáticamente el fixture con datos de regiones y comunas"""
-    call_command('loaddata', 'respaldo_portal_users', app_config='portal')
+    call_command('loaddata', 'respaldo_portal_users')
 
 
 def unload_fixture(apps, schema_editor):
